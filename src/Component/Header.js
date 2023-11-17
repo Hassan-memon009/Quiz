@@ -15,53 +15,17 @@ const Header = () => {
   return (
     <div className='index'>
       <div className='div'>
-        <nav className='navbar navbar-expand-md navbar-light bg-light fixed-top h-5'>
-          <div className='container-fluid'>
-            <Link className='navbar-brand' to='/'>
-              <div className='logo-container'>
-                <img className='logo1' src={image1} alt='logo' />
-              </div>
-            </Link>
-            <button
-              className='navbar-toggler'
-              type='button'
-              data-bs-toggle='collapse'
-              data-bs-target='#navbarResponsive'
-              aria-controls='navbarResponsive'
-              aria-expanded='false'
-              aria-label='Toggle navigation'
-            >
-              <span className='navbar-toggler-icon'></span>
-            </button>
-            <div className='collapse navbar-collapse' id='navbarResponsive'>
-              <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
-                <li className='nav-item'>
-                  <NavLink to='/' className='nav-link' activeClassName='active'>
-                    Home
-                  </NavLink>
-                </li>
-                <li className='nav-item'>
-                  <NavLink
-                    to='/download'
-                    className='nav-link'
-                    activeClassName='active'
-                  >
-                    Download App
-                  </NavLink>
-                </li>
-                <li className='nav-item'>
-                  <NavLink
-                    to='/order'
-                    className='nav-link'
-                    activeClassName='active'
-                  >
-                    Order
-                  </NavLink>
-                </li>
-              </ul>
+        <div className='group-wrapper'>
+          <div className='group-9'>
+            <div className='navbar'>
+              <div className='text-wrapper-9'>Home</div>
+              <div className='text-wrapper-10'>Menu</div>
+              <div className='text-wrapper-11'>About Us</div>
+              <div className='text-wrapper-12'>Contact</div>
             </div>
+            <img className='image-3' alt='Image' src={image1} />
           </div>
-        </nav>
+        </div>
         <div className='hero-section'>
           <p className='indulge-in-a'>
             Indulge in a symphony of flavors at our artisanal bakery. <br />
