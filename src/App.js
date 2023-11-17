@@ -13,7 +13,7 @@ function App() {
         {/* <Route path={'/'} element={<WelcomePage />} /> */}
         <Route path={'/Offering'} element={<Offering />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
