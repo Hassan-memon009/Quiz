@@ -60,7 +60,7 @@ const Header = () => {
             </div>
             <div className='overlap-group-wrapper'>
               <div className='overlap-group'>
-                <div className='text-wrapper'>Order Now</div>
+                <button className='text-wrapper'>Order Now</button>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Header = () => {
             </div>
             <div className='overlap-group-wrapper'>
               <div className='overlap-group'>
-                <div className='text-wrapper'>Order Now</div>
+                <button className='text-wrapper'>Order Now</button>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ const Header = () => {
             </div>
             <div className='overlap-group-wrapper'>
               <div className='overlap-group'>
-                <div className='text-wrapper'>Order Now</div>
+                <button className='text-wrapper'>Order Now</button>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Header = () => {
           </div>
           <div className='overlap-group-wrapper'>
             <div className='overlap-group'>
-              <div className='text-wrapper'>Order Now</div>
+              <button className='text-wrapper'>Order Now</button>
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@ const Header = () => {
           </div>
           <div className='overlap-group-wrapper'>
             <div className='overlap-group'>
-              <div className='text-wrapper'>Order Now</div>
+              <button className='text-wrapper'>Order Now</button>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ const Header = () => {
           </div>
           <div className='overlap-group-wrapper'>
             <div className='overlap-group'>
-              <div className='text-wrapper'>Order Now</div>
+              <button className='text-wrapper'>Order Now</button>
             </div>
           </div>
         </div>
