@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Css/Global.css'
+import image2 from '../img/image 2.png'
 
 function Welcome() {
   return (
@@ -18,11 +19,7 @@ function Welcome() {
         your moments with the magic of our oven-fresh delights. <br />
         Your journey to exceptional taste begins here.
       </p>
-      <img
-        className='image'
-        alt='Image'
-        src='https://cdn.animaapp.com/projects/655733e9ec0d332ecbfafeba/releases/65573522f1a1f77db0a79f9a/img/image-2.png'
-      />
+      <img className='image' alt='Image' src={image2} />
     </div>
   )
 }

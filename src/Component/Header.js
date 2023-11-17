@@ -1,10 +1,30 @@
 import React from 'react'
 import '../Css/Global.css'
+import image1 from '../img/image 1.png'
+import image2 from '../img/image 2.png'
+import image3 from '../img/image 3.png'
+import Of1 from '../img/Rectangle 2.png'
+import Of2 from '../img/Rectangle 3.png'
+import Of3 from '../img/Rectangle 4.png'
+import Of4 from '../img/Rectangle 5.png'
+import Of5 from '../img/Rectangle 6.png'
+import Of6 from '../img/Rectangle 7.png'
 
 const Header = () => {
   return (
     <div className='index'>
       <div className='div'>
+        <div className='group-wrapper'>
+          <div className='group-9'>
+            <div className='navbar'>
+              <div className='text-wrapper-9'>Home</div>
+              <div className='text-wrapper-10'>Menu</div>
+              <div className='text-wrapper-11'>About Us</div>
+              <div className='text-wrapper-12'>Contact</div>
+            </div>
+            <img className='image-3' alt='Image' src={image1} />
+          </div>
+        </div>
         <div className='hero-section'>
           <p className='indulge-in-a'>
             Indulge in a symphony of flavors at our artisanal bakery. <br />
@@ -20,44 +40,16 @@ const Header = () => {
             your moments with the magic of our oven-fresh delights. <br />
             Your journey to exceptional taste begins here.
           </p>
-          <img
-            className='image'
-            alt='Image'
-            src='https://cdn.animaapp.com/projects/655733e9ec0d332ecbfafeba/releases/65573522f1a1f77db0a79f9a/img/image-2.png'
-          />
+          <img className='image' alt='Image' src={image2} />
         </div>
         <div className='overlap'>
-          <img
-            className='rectangle'
-            alt='Rectangle'
-            src='https://cdn.animaapp.com/projects/655733e9ec0d332ecbfafeba/releases/65573522f1a1f77db0a79f9a/img/rectangle-3.png'
-          />
-          <img
-            className='img'
-            alt='Rectangle'
-            src='https://cdn.animaapp.com/projects/655733e9ec0d332ecbfafeba/releases/65573522f1a1f77db0a79f9a/img/rectangle-4.png'
-          />
+          <img className='rectangle' alt='Rectangle' src={Of2} />
+          <img className='img' alt='Rectangle' src={Of3} />
           <div className='group'>
-            <img
-              className='rectangle-2'
-              alt='Rectangle'
-              src='https://cdn.animaapp.com/projects/655733e9ec0d332ecbfafeba/releases/65573522f1a1f77db0a79f9a/img/rectangle-2.png'
-            />
-            <img
-              className='rectangle-3'
-              alt='Rectangle'
-              src='https://cdn.animaapp.com/projects/655733e9ec0d332ecbfafeba/releases/65573522f1a1f77db0a79f9a/img/rectangle-5.png'
-            />
-            <img
-              className='rectangle-4'
-              alt='Rectangle'
-              src='https://cdn.animaapp.com/projects/655733e9ec0d332ecbfafeba/releases/65573522f1a1f77db0a79f9a/img/rectangle-6.png'
-            />
-            <img
-              className='rectangle-5'
-              alt='Rectangle'
-              src='https://cdn.animaapp.com/projects/655733e9ec0d332ecbfafeba/releases/65573522f1a1f77db0a79f9a/img/rectangle-7.png'
-            />
+            <img className='rectangle-2' alt='Rectangle' src={Of1} />
+            <img className='rectangle-3' alt='Rectangle' src={Of4} />
+            <img className='rectangle-4' alt='Rectangle' src={Of5} />
+            <img className='rectangle-5' alt='Rectangle' src={Of6} />
           </div>
           <div className='group-2'>
             <div className='barfi-rs'>
@@ -135,11 +127,7 @@ const Header = () => {
         </div>
         <div className='overlap-wrapper'>
           <div className='overlap-2'>
-            <img
-              className='image-2'
-              alt='Image'
-              src='https://cdn.animaapp.com/projects/655733e9ec0d332ecbfafeba/releases/65573522f1a1f77db0a79f9a/img/image-3.png'
-            />
+            <img className='image-2' alt='Image' src={image3} />
             <div className='group-8'>
               <p className='at-our-bakery-baking'>
                 At our bakery, baking isn&#39;t just a process; it&#39;s an art,
@@ -203,21 +191,6 @@ const Header = () => {
         </div>
         <div className='overlap-9'>
           <p className='p'>All rights are reserved by @BakeryStore</p>
-        </div>
-        <div className='group-wrapper'>
-          <div className='group-9'>
-            <div className='navbar'>
-              <div className='text-wrapper-9'>Home</div>
-              <div className='text-wrapper-10'>Menu</div>
-              <div className='text-wrapper-11'>About Us</div>
-              <div className='text-wrapper-12'>Contact</div>
-            </div>
-            <img
-              className='image-3'
-              alt='Image'
-              src='https://cdn.animaapp.com/projects/655733e9ec0d332ecbfafeba/releases/65573522f1a1f77db0a79f9a/img/image-1.png'
-            />
-          </div>
         </div>
       </div>
     </div>
